@@ -3,9 +3,9 @@ set backspace=2
 syntax on
 set background=dark
 "colorscheme molokai
+"colorscheme desert
 colorscheme harlequin
 hi Normal ctermfg=256 ctermbg=None
-"colorscheme desert
 set t_Co=256
 
 filetype indent on
