@@ -29,3 +29,9 @@ set smartindent
 set smarttab
 set number
 
+ino " ""<left>
+ino ' ''<left>
+ino ( ()<left>
+ino [ []<left>
+ino { {}<left>
+ino {<CR> {<CR>}<ESC>O
