@@ -35,3 +35,6 @@ ino ( ()<left>
 ino [ []<left>
 ino { {}<left>
 ino {<CR> {<CR>}<ESC>O
+
+set binary
+set noeol
