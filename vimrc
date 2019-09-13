@@ -2,7 +2,7 @@ set nocompatible
 "set backspace=2
 syntax on
 filetype on
-set background=dark
+"set background=dark
 "colorscheme molokai
 "colorscheme desert
 colorscheme harlequin
