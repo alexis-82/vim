@@ -30,6 +30,8 @@ set showmatch
 "set smartindent
 "set smarttab
 set number
+set nobomb
+
 
 ino " ""<left>
 ino ' ''<left>
