@@ -17,8 +17,15 @@ filetype indent plugin on
 "set tabstop=4           " use 4 spaces to represent tab
 "set softtabstop=4
 "set shiftwidth=4        " number of spaces to use for auto indent
-"set autoindent          " copy indent from current line when starting a new line
-filetype plugin indent on
+set autoindent          " copy indent from current line when starting a new line
+let g:indent_guides_enable_on_vim_startup = 1
+" Settings
+let g:indent_guides_auto_colors=0
+hi IndentGuidesOdd ctermbg=blue
+hi IndentGuidesEven ctermbg=red
+let g:indent_guides_start_level=1
+let g:indent_guides_guide_size=1
+set ts=4 sw=4 et
 
 " make backspaces more powerfull
 " set backspace=indent,eol,start
