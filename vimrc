@@ -51,3 +51,8 @@ set binary
 set noeol
 
 " Per auto-indent eseguire: gg=G
+
+autocmd BufRead,BufNewFile * :e ++ff=dos
+
+
+
