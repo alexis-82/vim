@@ -38,6 +38,7 @@ set showmatch
 "set smarttab
 set number
 set nobomb
+set mouse=a
 
 
 ino " ""<left>
