@@ -39,6 +39,7 @@ set showmatch
 "set smarttab
 set number
 set nobomb
+set mouse=a
 
 
 ino " ""<left>
@@ -52,3 +53,8 @@ set binary
 set noeol
 
 " Per auto-indent eseguire: gg=G
+
+autocmd BufRead,BufNewFile * :e ++ff=dos
+
+
+
