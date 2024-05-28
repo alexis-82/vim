@@ -2,6 +2,7 @@ set nocompatible
 "set backspace=2
 syntax on
 filetype on
+au BufWritePost * if &syntax == '' | :filetype detect | endif
 "set background=dark
 "colorscheme molokai
 "colorscheme desert
