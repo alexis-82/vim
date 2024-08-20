@@ -56,5 +56,5 @@ set noeol
 
 autocmd BufRead,BufNewFile * :e ++ff=dos
 hi Normal ctermfg=Red ctermbg=Black
-
+set guifont=Monospace\ Bold\ 20
 
