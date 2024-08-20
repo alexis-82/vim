@@ -55,6 +55,6 @@ set noeol
 " Per auto-indent eseguire: gg=G
 
 autocmd BufRead,BufNewFile * :e ++ff=dos
-
+hi Normal ctermfg=Red ctermbg=Black
 
 
