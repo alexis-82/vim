@@ -56,7 +56,7 @@ set noeol
 
 autocmd BufRead,BufNewFile * :e ++ff=dos
 
-# Abilitare sotto solo se lo sfondo non è nero
-# hi Normal ctermfg=Red ctermbg=Black
+" Abilitare sotto solo se lo sfondo non è nero
+" hi Normal ctermfg=Red ctermbg=Black
 set guifont=Monospace\ Bold\ 20
 
